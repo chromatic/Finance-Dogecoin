@@ -3,6 +3,10 @@ package Finance::Dogecoin::API;
 use 5.010;
 
 use Moo;
+# limit the damage from Moo's use of strictures
+# see: http://www.modernperlbooks.com/mt/2014/01/fatal-warnings-are-a-ticking-time-bomb.html
+use warnings NONFATAL => 'all';
+
 use Carp ();
 use JSON;
 use HTTP::Headers;
