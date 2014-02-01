@@ -8,6 +8,8 @@ use Moo;
 use warnings NONFATAL => 'all';
 
 use Carp ();
+
+use URI;
 use JSON;
 use HTTP::Headers;
 use LWP::UserAgent;

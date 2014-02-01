@@ -2,6 +2,7 @@ Finance::Dogecoin Changelog
 ---------------------------
 
 {{$NEXT}}
+    - improved URI library use (load it explicitly)
 
 1.20140129.2055 2014-01-29 12:55:46-08:00 America/Los_Angeles
     - worked around Moo/stricture fatal warnings brokenness
